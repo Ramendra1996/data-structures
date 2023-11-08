@@ -2,7 +2,7 @@ package com.array2D;
 
 import java.util.Scanner;
 
-public class TransoseMatrix {
+public class TransposeMatrix {
 
     public static void  getTranse(int arr[][],int transpose[][]){
         for (int i=0;i<arr.length;i++){

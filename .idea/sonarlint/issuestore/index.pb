@@ -203,3 +203,11 @@ b
 2src/com/recursionBacktracing/RatInMazeProblem.java,e\4\e4dfbc2700bb5b589f25fbb2c00df3ac746b1077
 R
 "src/com/binaryTree/BinaryTree.java,9\1\9163e5813bb4928e1d3ec1ec209e3641fe41365b
+S
+#src/com/array2D/TranposeMatrix.java,6\b\6bdf99703855f958403996fab8dd5723d54e99ed
+T
+$src/com/array2D/TransposeMatrix.java,5\4\5482d343f35a1c21a534e2fbf18d518821748439
+h
+8src/com/binaryTree/BuildBinaryTreeUsingPreOrInorder.java,c\6\c60d4a1be86a37b535010067f32796bb89d3fbb5
+d
+4src/com/binaryTree/BuildBinaryTreePostOrInorder.java,4\0\4025b11507f5700eef5f41da75211e1a5d79ccf7

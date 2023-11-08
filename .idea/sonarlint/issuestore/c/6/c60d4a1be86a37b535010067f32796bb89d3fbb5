@@ -1,0 +1,14 @@
+
+{
+java:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ñ…Û°ûÿÿÿÿ8ŠÂØÜº1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü¥ÊÈ8‹ÂØÜº1
+G
+java:S1197"*Move the array designators [] to the type.(ª¿‰•8¾ÂØÜº1
+L
+java:S1197!"*Move the array designators [] to the type.(õËßšúÿÿÿÿ8ÃÂØÜº1
+L
+java:S1197!"*Move the array designators [] to the type.(õËßšúÿÿÿÿ8ÃÂØÜº1
+G
+java:S1197E"*Move the array designators [] to the type.(±ãìë8ÈÂØÜº1
+L
+java:S1197F"*Move the array designators [] to the type.(î›Òˆøÿÿÿÿ8ÉÂØÜº1
