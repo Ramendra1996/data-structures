@@ -11,14 +11,14 @@ public class BuildBinaryTreePostOrInorder {
         Node left;
         Node right;
 
-        public Node(int data) {
+        private Node(int data) {
             this.data = data;
             left = null;
             right = null;
         }
     }
     //find position
-    public static int findPosition(int inOrder[],int size,int element){
+    private static int findPosition(int inOrder[],int size,int element){
         for (int i=0;i<size;i++){
             if(inOrder[i]==element){
                 return i;
@@ -27,7 +27,7 @@ public class BuildBinaryTreePostOrInorder {
         return -1;
     }
     //build tree using postorder and Inorder
-    public static Node buildTreePostOrderAndInorder(int inOrder[],int postOrder[],int size,int inorderStart,int inorderEnd){
+    private static Node buildTreePostOrderAndInorder(int inOrder[],int postOrder[],int size,int inorderStart,int inorderEnd){
 
         if(postIndex<0 ||inorderStart>inorderEnd){
             return null;
@@ -40,7 +40,7 @@ public class BuildBinaryTreePostOrInorder {
         return root;
     }
     // Print level order traversal
-    public static void levelOrderTraversal(Node root) {
+    private static void levelOrderTraversal(Node root) {
         if (root == null) {
             return;
         }

@@ -5,17 +5,17 @@ public class BinaryTree {
     static Node root;
     static Node p;
     static Node q;
-    static class Node {
+   private static class Node {
         int data;
         Node left;
         Node right;
-        public Node(int data) {
+        private Node(int data) {
             this.data = data;
             left = null;
             right = null;
         }
     }
-    public static Node buildTree() {
+    private static Node buildTree() {
         Node root = null;
         System.out.println("Enter data:");
         int data = scanner.nextInt();
@@ -31,7 +31,7 @@ public class BinaryTree {
     }
 
     //level order traversal
-    public static void  levelOrderTraversal(Node root){
+    private static void  levelOrderTraversal(Node root){
         Queue<Node> queue = new LinkedList<Node>();
         queue.add(root);
         queue.add(null);
@@ -58,7 +58,7 @@ public class BinaryTree {
     }
 
     //InOrder Traversal
-    public static void InOrderTraversal(Node root){
+    private static void InOrderTraversal(Node root){
         //basecase
         if (root==null){
             return;
@@ -69,7 +69,7 @@ public class BinaryTree {
         InOrderTraversal(root.right);
     }
     //PreOrder Traversal
-    public static void preOrderTraversal(Node root){
+    private static void preOrderTraversal(Node root){
         if(root==null){
             return;
         }
@@ -78,7 +78,7 @@ public class BinaryTree {
         preOrderTraversal(root.right);
     }
     //postOrder traversal
-    public static void postorderTraversal(Node root){
+    private static void postorderTraversal(Node root){
       if (root==null){
           return;
       }
@@ -87,7 +87,7 @@ public class BinaryTree {
         System.out.print(root.data+" ");
     }
   //height of a tree LeetCode 104
-    public static int height(Node root){
+    private static int height(Node root){
         if (root==null){
             return 0;
         }
@@ -97,7 +97,7 @@ public class BinaryTree {
         return ans;
     }
     //diameter of a tree LeetCode543
-     public static  int diameter(Node root){
+     private static  int diameter(Node root){
         if(root==null){
             return 0;
         }
@@ -108,7 +108,7 @@ public class BinaryTree {
         return ans;
      }
      //balanced binary tree LeetCode 110
-     public static boolean isBalanced(Node root) {
+     private static boolean isBalanced(Node root) {
         if(root==null){
             return true;
         }
@@ -144,7 +144,7 @@ public class BinaryTree {
         return Math.max(leftHeight, rightHeight) + 1; // Height of the current node
     }*/
 
-    public static  int convertInToSumTreeSum(Node root){
+    private static  int convertInToSumTreeSum(Node root){
         if(root==null){
             return 0;
         }
@@ -155,7 +155,7 @@ public class BinaryTree {
     }
 
     //Lowest common Ancestor LeetCode 236
-    public  static  Node lowestCommonAncestor(Node root, Node p, Node q) {
+    private   static  Node lowestCommonAncestor(Node root, Node p, Node q) {
         if(root==null){
             return null;
         }
@@ -183,7 +183,7 @@ public class BinaryTree {
         }
     }
     //kth Ancestor
-    public static boolean kthAncestor(Node root , int k, Node p){
+    private static boolean kthAncestor(Node root , int k, Node p){
       if(root==null){
           return false;
       }
@@ -204,7 +204,7 @@ public class BinaryTree {
 
     //pathSum LeetCode 113
 
-    public static void solve(Node root, int targetSum,int sum,List<List<Integer>>ans,List<Integer>temp){
+    private static void solve(Node root, int targetSum,int sum,List<List<Integer>>ans,List<Integer>temp){
         //base case
         if(root==null){
             return;
@@ -225,7 +225,7 @@ public class BinaryTree {
         // Remove the current node from the path when backtracking
         temp.remove(temp.size() - 1);
     }
-    public static List<List<Integer>> pathSum(Node root, int targetSum) {
+    private static List<List<Integer>> pathSum(Node root, int targetSum) {
         List<List<Integer>>ans =new ArrayList<>();
         List<Integer>temp = new ArrayList<>();
         int sum=0;

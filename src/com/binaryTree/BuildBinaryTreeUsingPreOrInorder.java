@@ -12,7 +12,7 @@ public class BuildBinaryTreeUsingPreOrInorder {
         Node left;
         Node right;
 
-        public Node(int data) {
+        private Node(int data) {
             this.data = data;
             left = null;
             right = null;
@@ -20,7 +20,7 @@ public class BuildBinaryTreeUsingPreOrInorder {
     }
 
     // Find the root element position
-    public static int findPosition(int inOrder[], int size, int element) {
+    private static int findPosition(int inOrder[], int size, int element) {
         for (int i = 0; i < size; i++) {
             if (inOrder[i] == element) {
                 return i;
@@ -30,7 +30,7 @@ public class BuildBinaryTreeUsingPreOrInorder {
     }
 
     // Build tree
-    public static Node buildTreeFromPreOrderInOrder(int inOrder[], int preOrder[], int size, int inorderStart, int inorderEnd) {
+    private static Node buildTreeFromPreOrderInOrder(int inOrder[], int preOrder[], int size, int inorderStart, int inorderEnd) {
         if (preIndex >= size || inorderStart > inorderEnd) {
             return null;
         }
@@ -43,7 +43,7 @@ public class BuildBinaryTreeUsingPreOrInorder {
     }
 
     // Print level order traversal
-    public static void levelOrderTraversal(Node root) {
+    private static void levelOrderTraversal(Node root) {
         if (root == null) {
             return;
         }

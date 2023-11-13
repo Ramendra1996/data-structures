@@ -1,0 +1,8 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü¥ÊÈ8„©¢Ç¼1
+£
+java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹é¶úøÿÿÿÿ8–©¢Ç¼1
+M
+java:S11724"+Remove this unused method parameter "root".(¹é¶úøÿÿÿÿ8¡©¢Ç¼1
+[
+java:S11444"9Remove this unused private "leftViewByLevelOrder" method.(¹é¶úøÿÿÿÿ8§©¢Ç¼1
