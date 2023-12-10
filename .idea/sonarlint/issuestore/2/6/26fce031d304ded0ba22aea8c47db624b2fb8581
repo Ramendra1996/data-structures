@@ -1,0 +1,14 @@
+
+L
+java:S3740
+"/Provide the parametrized type for this generic.(‹ŠÐâ8° ‚Ë¾1
+L
+java:S3740"/Provide the parametrized type for this generic.(€¨£˜8€£’Ë¾1
+S
+java:S1854
+"6Remove this useless assignment to local variable "pq".(‹ŠÐâ8ˆ£’Ë¾1
+D
+java:S1481
+"'Remove this unused "pq" local variable.(‹ŠÐâ8Š£’Ë¾1
+S
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉÐšùÿÿÿÿ8½ ‚Ë¾1

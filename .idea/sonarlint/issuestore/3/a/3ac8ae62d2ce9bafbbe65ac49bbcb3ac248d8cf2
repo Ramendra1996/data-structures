@@ -1,0 +1,8 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½¢ııÿÿÿÿ8îÿ÷Â1
+
+java:S1149K"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(şç»èøÿÿÿÿ8Õÿ÷Â1
+^
+java:S1126+"AReplace this if-then-else statement by a single return statement.(¨ûÍœ8áÿ÷Â1
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8Æ·”øÂ1
