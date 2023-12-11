@@ -321,3 +321,25 @@ a
 1src/com/stack/LargestAreaHistogramLeetCode84.java,6\f\6f305f699a37b6d03fd85c21e67a2ac2141b471c
 P
  src/com/queue/QueueImpArray.java,9\1\919621a0a6a9e038165ed4441d82a51e0b057bc2
+X
+(src/com/queue/CircularQueueImpArray.java,5\b\5b534fba0e2e03cac5121a90b904424d8c6851c9
+S
+#src/com/queue/DoublyEndedQueue.java,3\2\32ed67f3595d0898733ba8b64b3fec9925d74b22
+O
+src/com/queue/ReverseQueue.java,0\e\0e5f85d48dd6ffa70983cfc8f6ee9e0ee2e2554d
+W
+'src/com/queue/ReverseFirstKelement.java,f\c\fc1fcbbc40b0da9b7a3f82ecda9769746df40008
+_
+/src/com/queue/InterLeaveFirstAndSecondhalf.java,e\a\ea75c7ef16dec7a0638d974a2cd3b9063c07397e
+_
+/src/com/queue/InterLeaveFirstAndSecondHalf.java,7\e\7e9271f01617aaa4e2ebfb06112326b19e82b744
+V
+&src/com/queue/FirstnegtiveInteger.java,7\b\7b6f71609348fb113316ac680ab5427abc2c190e
+V
+&src/com/queue/FirstNegtiveInteger.java,7\f\7fb8eea400ec4950864109fd57a232d19b4601c7
+X
+(src/com/queue/FirstNonRepeatingChar.java,6\a\6ad2587af80eef52f0233f563ee63be69d1be6be
+X
+(src/com/queue/GasStationLeetCode134.java,b\a\ba2c95b5eab3d8b00ed361db3f444531e5d7fa0b
+b
+2src/com/queue/SlidingWindowMaximumLeetcode239.java,b\9\b9175ec5a1cedc7d3204823606a97c3ffba0e77e
