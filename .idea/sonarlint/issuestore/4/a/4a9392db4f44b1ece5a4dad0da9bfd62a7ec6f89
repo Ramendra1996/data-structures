@@ -1,0 +1,7 @@
+
+p
+java:S1192O"NDefine a constant instead of duplicating this literal "list is empty" 3 times.(ªÛü¹ûÿÿÿÿ8Ğ¼ƒ¶Ç1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ıŒ¢®ıÿÿÿÿ8Ò¼ƒ¶Ç1
+£
+java:S1186I"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŸÙ‘üÿÿÿÿ8İ¼ƒ¶Ç1
+]	java:S1253"<This block of commented-out lines of code should be removed.(®ÏõÛşÿÿÿÿ8á¼ƒ¶Ç1

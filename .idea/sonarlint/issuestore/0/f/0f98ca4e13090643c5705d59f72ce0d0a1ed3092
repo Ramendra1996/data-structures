@@ -1,0 +1,14 @@
+
+p
+java:S1192"NDefine a constant instead of duplicating this literal "list is empty" 3 times.(ªÛü¹ûÿÿÿÿ8ôè‘ÊÇ1
+J
+java:S5411y"(Use a primitive boolean expression here.(÷ä¸ôùÿÿÿÿ8ğš‡ÊÇ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ıŒ¢®ıÿÿÿÿ8ñš‡ÊÇ1
+d
+java:S2259N"BA "NullPointerException" could be thrown; "fast" is nullable here.(Ü¤Şşÿÿÿÿ8şš‡ÊÇ1
+d
+java:S2259j"BA "NullPointerException" could be thrown; "fast" is nullable here.(Ü¤Şşÿÿÿÿ8•é‘ÊÇ1
+K
+java:S1481")Remove this unused "prev" local variable.(ÍÚ›öüÿÿÿÿ8ƒ›‡ÊÇ1
+X	java:S125!"<This block of commented-out lines of code should be removed.(ËÕĞ²8„›‡ÊÇ1
+]	java:S125)"<This block of commented-out lines of code should be removed.(âî’Öûÿÿÿÿ8„›‡ÊÇ1
