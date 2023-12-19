@@ -1,0 +1,5 @@
+
+…
+java:S1488¢"bImmediately return this expression instead of assigning it to the temporary variable "sortedHead".(Á‘¼úÿÿÿÿ8ƒ‡œòÇ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¶ƒå—8¢Ó•òÇ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ıŒ¢®ıÿÿÿÿ8£Ó•òÇ1

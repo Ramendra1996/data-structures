@@ -1,0 +1,8 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ıŒ¢®ıÿÿÿÿ8¬…àóÇ1
+b
+java:S2259<"EA "NullPointerException" could be thrown; "ansTail" is nullable here.(ñÚÁ¿8¸¹áóÇ1
+b
+java:S2259F"EA "NullPointerException" could be thrown; "ansTail" is nullable here.(ñÚÁ¿8¸¹áóÇ1
+Z
+java:S1854"8Remove this useless assignment to local variable "next".(ÃÉš›úÿÿÿÿ8Ş…àóÇ1
