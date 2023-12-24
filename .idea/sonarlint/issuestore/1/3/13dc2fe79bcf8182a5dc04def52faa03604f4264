@@ -1,0 +1,13 @@
+
+~
+java:S1488˜"[Immediately return this expression instead of assigning it to the temporary variable "ans".(¾òë½ùÿÿÿÿ8·£š¿É1
+E
+java:S5411q"(Use a primitive boolean expression here.(ßÖÀ‰8¹£š¿É1
+X
+java:S1854"5Remove this useless assignment to local variable "n".(ùòË™üÿÿÿÿ8ñ¤š¿É1
+M
+java:S1197œ"*Move the array designators [] to the type.(Âï¬€ÿÿÿÿÿ8ñ¤š¿É1
+I
+java:S1481"&Remove this unused "n" local variable.(ùòË™üÿÿÿÿ8ñ¤š¿É1
+Y	java:S125"<This block of commented-out lines of code should be removed.(Ğ£ÀÀ8ò¤š¿É1
+^	java:S125¯"<This block of commented-out lines of code should be removed.(›Ê·íùÿÿÿÿ8ò¤š¿É1

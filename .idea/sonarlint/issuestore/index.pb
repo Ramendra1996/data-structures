@@ -371,7 +371,27 @@ Q
 !src/com/linkList/sort012InLL.java,6\1\6165fee7ba1b460fc145608f81b8bb81a1bb3811
 a
 1src/com/linkList/AddTwoNumberRepresentedByLL.java,f\9\f9e2369826c8d96f9ceb3fe59a805ec016d8d035
-O
-src/com/dp/FibonacciNumber.java,d\9\d93d4b168a7a49c081d67fcb07314eaa75816d9d
 Z
 *src/com/dp/FibonacciNumberLeetCode509.java,c\8\c88fee32d098c22b87686e1069dcba2198a61e2c
+M
+src/com/dp/CoinChange322.java,4\f\4f7f03dc8ae6ee2de5ef8d22367fb2ac0bf33070
+V
+&src/com/dp/HouseRobberLeetCode198.java,d\0\d0185ebf76d4a7b7c70aae7c0b9d11c9aceb0146
+X
+(src/com/dp/HouseRobber11LeetCode213.java,1\f\1fc171d04ba1395f5c3f5abea7031f89cd567096
+P
+ src/com/dp/PaintingFenceGfG.java,1\1\113a1f615c7261efae9947710c37d73972e0ad4f
+O
+src/com/dp/KnapSackproblem.java,3\f\3f7d0a64836a4dc7369a5d95dddb6285a325f316
+O
+src/com/dp/KnapSackProblem.java,8\5\85abbf6a1243ee90b0d3d5b662cee4d78af81b4b
+`
+0src/com/dp/PartionEqualSubsetSumLeetCode416.java,1\3\13dc2fe79bcf8182a5dc04def52faa03604f4264
+i
+9src/com/dp/NumberOfDiceRollWithtargetSumLeetCode1155.java,b\f\bf4b168bfa2f7d40cdf4dc2d459d00789b795292
+i
+9src/com/dp/NumberOfDiceRollWithTargetSumLeetCode1155.java,f\2\f229d41d9dfdd95434ca8830c4391889d4db8456
+c
+3src/com/dp/GuessNumberHigherOrLowerLeetCode375.java,8\5\857a943b30761dcdd9e6e073495f7ec61874e5c3
+h
+8src/com/dp/MinimumCostTreeFromLeafValueLeetCode1130.java,f\1\f184be528b837d447d9c2df90b0ea0599bfe2c14
