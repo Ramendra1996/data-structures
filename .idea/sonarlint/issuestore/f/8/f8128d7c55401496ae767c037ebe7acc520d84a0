@@ -1,0 +1,9 @@
+
+x
+java:S1488|"[Immediately return this expression instead of assigning it to the temporary variable "ans".(‹â»Ì8´Ü†ìÉ1
+^
+java:S1226N"AIntroduce a new variable instead of reusing the parameter "prev".(¸ÓÒ‰8·Ü†ìÉ1
+?
+java:S1659	""Declare "high" on a separate line.(ÎÑ€Š8Óß†ìÉ1
+H
+java:S1197‚"*Move the array designators [] to the type.(¥†¿•8íß†ìÉ1

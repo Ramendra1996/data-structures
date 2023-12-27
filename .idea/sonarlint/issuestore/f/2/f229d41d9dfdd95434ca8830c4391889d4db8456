@@ -1,11 +1,11 @@
 
 T
-java:S2589W"7Remove this expression which always evaluates to "true"(§æÌ³8ñÄÁÉ1
-T
-java:S2589="7Remove this expression which always evaluates to "true"(§æÌ³8ñÄÁÉ1
-T
 java:S2589:"7Remove this expression which always evaluates to "true"(·ü˜¬8ñÄÁÉ1
 T
 java:S2589T"7Remove this expression which always evaluates to "true"(·ü˜¬8ñÄÁÉ1
+T
+java:S2589="7Remove this expression which always evaluates to "true"(§æÌ³8ñÄÁÉ1
+T
+java:S2589W"7Remove this expression which always evaluates to "true"(§æÌ³8ñÄÁÉ1
 p
 java:S3008	"NRename this field "MOD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àíïüÿÿÿÿ8‚ñÄÁÉ1
