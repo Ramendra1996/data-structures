@@ -61,7 +61,7 @@ public class CheckGraphCyclicOrNot {
                    return true;
                }
             }
-            if(visitedDFS.getOrDefault(nbr,true) && nbr !=parent){
+            if(visitedDFS.getOrDefault(nbr,false) && nbr !=parent){
                 //cyclic present
                 return true;
             }

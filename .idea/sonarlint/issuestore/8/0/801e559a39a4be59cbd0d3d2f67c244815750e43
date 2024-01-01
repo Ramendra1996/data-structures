@@ -1,0 +1,19 @@
+
+J
+java:S5411-"(Use a primitive boolean expression here.(Úù¯µúÿÿÿÿ8¯©—÷Ë1
+E
+java:S5411I"(Use a primitive boolean expression here.(µãé­8°©—÷Ë1
+m
+java:S1149D"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(˜…ç¸8ú«—÷Ë1
+m
+java:S1149R"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(äŒşÖ8ú«—÷Ë1
+o
+java:S3776R"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(äŒşÖ8€¬—÷Ë1
+H
+java:S1172R"+Remove this unused method parameter "dest".(äŒşÖ8¬—÷Ë1
+^	java:S125•"<This block of commented-out lines of code should be removed.(ûÓÑ‰ıÿÿÿÿ8…¬—÷Ë1
+^	java:S125 "<This block of commented-out lines of code should be removed.(óË·¿ÿÿÿÿÿ8…¬—÷Ë1
+Y	java:S125´"<This block of commented-out lines of code should be removed.(ä¦Ø©8†¬—÷Ë1
+^	java:S125¸"<This block of commented-out lines of code should be removed.(Âé®Úùÿÿÿÿ8†¬—÷Ë1
+Y	java:S125Â"<This block of commented-out lines of code should be removed.(õìèÃ8†¬—÷Ë1
+^	java:S125à"<This block of commented-out lines of code should be removed.(ì¤“ÿÿÿÿÿ8ˆ¬—÷Ë1
