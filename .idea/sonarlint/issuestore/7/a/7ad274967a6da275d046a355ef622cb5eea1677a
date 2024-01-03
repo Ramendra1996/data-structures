@@ -1,0 +1,10 @@
+
+~
+java:S1488;"aImmediately return this expression instead of assigning it to the temporary variable "poSortBFS".(Œ…ôÓ8üÓÐ«Ì1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(œ·Š×8€ÕÐ«Ì1
+T
+java:S1854"7Remove this useless assignment to local variable "src".(­’ñ‘8€ÕÐ«Ì1
+E
+java:S1481"(Remove this unused "src" local variable.(­’ñ‘8‚ÕÐ«Ì1
+]	java:S125."<This block of commented-out lines of code should be removed.(×‰åÿÿÿÿÿ8„ÕÐ«Ì1

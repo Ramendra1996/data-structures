@@ -1,0 +1,15 @@
+
+J
+java:S5411"(Use a primitive boolean expression here.(Ù‰ú…ûÿÿÿÿ8§“¯ÜÌ1
+J
+java:S5411)"(Use a primitive boolean expression here.(„Ô«Æùÿÿÿÿ8§“¯ÜÌ1
+J
+java:S5411="(Use a primitive boolean expression here.(Äã˜Ÿùÿÿÿÿ8¨“¯ÜÌ1
+e
+java:S38243"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(ÔÅ¼‡8Â”¯ÜÌ1
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÇÍ¶Ø8Ç”¯ÜÌ1
+r
+java:S1149%"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¶Âôœøÿÿÿÿ8Ç”¯ÜÌ1
+]	java:S125"<This block of commented-out lines of code should be removed.(¦°¿Õûÿÿÿÿ8ý¯ÛÍ1
+X	java:S125>"<This block of commented-out lines of code should be removed.(ˆ•„—8‰ýÛÍ1
