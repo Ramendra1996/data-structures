@@ -1,0 +1,25 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü”ð’8ÈöÙ¨Î1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü”ð’8ÉöÙ¨Î1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü”ð’8ÉöÙ¨Î1
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦†Èÿ8¼‰Ý¨Î1
+m	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Û£•8¼‰Ý¨Î1
+l	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í™é8¼‰Ý¨Î1
+G
+java:S1197"*Move the array designators [] to the type.(ü”ð’8“÷Ù¨Î1
+G
+java:S1197"*Move the array designators [] to the type.(ü”ð’8“÷Ù¨Î1
+G
+java:S1197"*Move the array designators [] to the type.(ü”ð’8“÷Ù¨Î1
+]	java:S125	"<This block of commented-out lines of code should be removed.(ÝÇêÉýÿÿÿÿ8“÷Ù¨Î1
+G
+java:S1197&"*Move the array designators [] to the type.(¦†Èÿ8†ŠÝ¨Î1
+X	java:S125#"<This block of commented-out lines of code should be removed.(å‡¢Â8±«Û¨Î1
+G
+java:S1197'"*Move the array designators [] to the type.(‹Û£•8‡ŠÝ¨Î1
+F
+java:S1197("*Move the array designators [] to the type.(Í™é8‡ŠÝ¨Î1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8‡ŠÝ¨Î1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8‡ŠÝ¨Î1
