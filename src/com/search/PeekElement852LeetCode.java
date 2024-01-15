@@ -28,3 +28,4 @@ public class PeekElement852LeetCode {
         System.out.println("peekElement="+searchPeekElement);
     }
 }
+//arr ={0,10,5,2}

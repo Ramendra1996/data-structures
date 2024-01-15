@@ -1,0 +1,13 @@
+
+R
+java:S1854"5Remove this useless assignment to local variable "b".(ãò™8¿‘©øÏ1
+R
+java:S1854"5Remove this useless assignment to local variable "a".(ŸÌ›·8À‘©øÏ1
+G
+java:S1197"*Move the array designators [] to the type.(ŸÌ›·8À‘©øÏ1
+C
+java:S1481"&Remove this unused "a" local variable.(ŸÌ›·8À‘©øÏ1
+G
+java:S1197"*Move the array designators [] to the type.(ãò™8À‘©øÏ1
+C
+java:S1481"&Remove this unused "b" local variable.(ãò™8À‘©øÏ1

@@ -1,0 +1,13 @@
+
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«˜êºøÿÿÿÿ8šıëÁĞ1
+\
+java:S1854	":Remove this useless assignment to local variable "target".(¼ƒ·Äûÿÿÿÿ8›ıëÁĞ1
+T
+java:S1854"7Remove this useless assignment to local variable "arr".(ˆåÉ»8›ıëÁĞ1
+G
+java:S1197"*Move the array designators [] to the type.(ˆåÉ»8œıëÁĞ1
+E
+java:S1481"(Remove this unused "arr" local variable.(ˆåÉ»8œıëÁĞ1
+M
+java:S1481	"+Remove this unused "target" local variable.(¼ƒ·Äûÿÿÿÿ8œıëÁĞ1

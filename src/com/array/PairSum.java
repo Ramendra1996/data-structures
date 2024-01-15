@@ -1,6 +1,7 @@
-package com.search;
+package com.array;
 
-public class FindPivort {
+public class PairSum {
+
     public static void main(String[] args) {
 
     }

@@ -11,7 +11,7 @@ public class BinarySearch2DArray {
       while (start<=end){
           int mid = start+(end-start)/2;
           int rowIndex=mid/arr[0].length;
-          int colIndex= mid%arr.length;
+          int colIndex= mid%arr[0].length;
 
           if (arr[rowIndex][colIndex]==key){
               return true;

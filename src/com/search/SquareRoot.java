@@ -3,6 +3,25 @@ package com.search;
 import java.util.Scanner;
 
 public class SquareRoot {
+    public static double getSquareRoot(int n, int precision) {
+        double start = 0;
+        double end = n;
+        double ans = 0;
+        double epsilon = Math.pow(10, -precision);
+
+        while (end - start > epsilon) {
+            double mid = start + (end - start) / 2;
+            if (mid * mid == n) {
+                return mid;
+            } else if (mid * mid > n) {
+                end = mid;
+            } else {
+                ans = mid;
+                start = mid;
+            }
+        }
+        return ans;
+    }
     public static int getSquareRoot(int n){
         int start =0;
         int end =n;
@@ -29,8 +48,8 @@ public class SquareRoot {
         int squareRoot = getSquareRoot(n);
         double finalAns=squareRoot;
         double step=0.1;
-        for (int i=0;i<precision;i++){
-            for (double j=squareRoot;j*j<=n;j=j+step){
+        for (double i=0;i<precision;i++){
+            for (double j=finalAns;j*j<=n;j=j+step){
                 finalAns=j;
             }
             step=step/10;
@@ -38,5 +57,5 @@ public class SquareRoot {
         System.out.println("SquareRoot="+finalAns);
     }
 }
-//TC->0(longn)
+//TC->0(log n)
 //SC->0(1)
