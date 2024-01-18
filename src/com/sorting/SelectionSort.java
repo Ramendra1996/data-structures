@@ -33,5 +33,10 @@ public class SelectionSort {
     }
 }
 
-//TC->0(n^2)
+//TC->0(n^2) worst case and  avg case
 //SC->0(1)
+// Does not preserve the relative order of items with equal keys which means it is not stable.
+
+/*Q2. Is Selection Sort Algorithm in-place?
+
+Yes, Selection Sort Algorithm is an in-place algorithm, as it does not require extra space.*/

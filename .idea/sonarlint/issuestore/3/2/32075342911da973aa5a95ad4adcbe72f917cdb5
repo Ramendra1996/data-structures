@@ -1,5 +1,6 @@
 
-L
-java:S1197"*Move the array designators [] to the type.(‹Û¨ıÿÿÿÿ8æ«ŠğĞ1
-L
-java:S1197"*Move the array designators [] to the type.(Ÿç­•úÿÿÿÿ8ç«ŠğĞ1
+G
+java:S1197
+"*Move the array designators [] to the type.(åñâ8ù¶öĞ1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ü¶öĞ1
