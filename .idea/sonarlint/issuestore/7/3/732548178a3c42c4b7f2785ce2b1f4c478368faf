@@ -1,0 +1,5 @@
+
+u	java:S135	"YReduce the total number of break and continue statements in this loop to use at most one.(ş¯Ïş8Ö™¨íÒ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ù“åûÿÿÿÿ8Ö™¨íÒ1
+9
+java:S1643"Use a StringBuilder instead.(¿–«Ü8İ™¨íÒ1
