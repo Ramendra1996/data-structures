@@ -1,0 +1,14 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÜÃšÿÿÿÿÿ8˜Ø‹Õ1
+a
+java:S1854"?Remove this useless assignment to local variable "maxRightSum".(€•øÿÿÿÿ8Ë˜Ø‹Õ1
+`
+java:S1854">Remove this useless assignment to local variable "maxLeftSum".(ùÓ£ùÿÿÿÿ8Ë˜Ø‹Õ1
+G
+java:S1197"*Move the array designators [] to the type.(òê–¤8Ì˜Ø‹Õ1
+Q
+java:S1481"/Remove this unused "maxLeftSum" local variable.(ùÓ£ùÿÿÿÿ8Í˜Ø‹Õ1
+R
+java:S1481"0Remove this unused "maxRightSum" local variable.(€•øÿÿÿÿ8Î˜Ø‹Õ1
+G
+java:S11971"*Move the array designators [] to the type.(»×„¨8Ñ˜Ø‹Õ1
