@@ -577,3 +577,11 @@ k
 ;src/com/recursionBacktracing/MaximumSubarrayLeetCode53.java,5\4\54229d84861aac999a98b232467ca7ffff00fdbc
 j
 :src/com/recursionBacktracing/CombinationSumLeetCode39.java,9\f\9ff0cf58c37dab6442b06fc50d91d8eec8aead55
+k
+;src/com/recursionBacktracing/CombinationSum2LeetCode40.java,3\c\3c38c3a34a8e42ea1de31a2ce110c7596b4aeea8
+g
+7src/com/recursionBacktracing/Permutaion2leetCode47.java,6\8\68b799d810135a940c0706644e653a1a5b1536ea
+q
+Asrc/com/recursionBacktracing/BeautifulArrangementLeetCode526.java,4\a\4a47c3b86212525e77a67dbb0a88e33732af7241
+y
+Isrc/com/recursionBacktracing/DistributeRepeatingIntegersLeetCode1655.java,f\e\fe8df5f96e9c04a17ce118097b26df85df3c8480
