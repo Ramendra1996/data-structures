@@ -20,12 +20,12 @@ public class MinimumCostForTicketsLeetCode983 {
         int cost7 =costs[1]+mincostTicketsHelper(days,costs,j);
 
         //30 day pass
-         passEndDay =days[i]+7-1;
+         passEndDay =days[i]+3-1;
          j =i;
         while ( j<days.length  &&days[j]<=passEndDay){
             j++;
         }
-        int cost30 =costs[1]+mincostTicketsHelper(days,costs,j);
+        int cost30 =costs[2]+mincostTicketsHelper(days,costs,j);
 
         return Math.min(cost1,Math.min(cost7,cost30));
 
