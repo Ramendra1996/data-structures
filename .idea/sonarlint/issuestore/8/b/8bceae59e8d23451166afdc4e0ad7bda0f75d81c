@@ -1,0 +1,21 @@
+
+k
+java:S5411%"(Use a primitive boolean expression here.(šëãˆ8Ø¶Å…ø1J$872ebda9-bdbd-4c56-869e-c157b00084a7
+p
+java:S5411("(Use a primitive boolean expression here.(õ˜†üÿÿÿÿ8Ø¶Å…ø1J$ba60b3e2-e5a7-4ded-8cb4-52dbca3c23ce
+k
+java:S5411+"(Use a primitive boolean expression here.(Ğûİ„8Ø¶Å…ø1J$f346fa7a-5009-4c7c-b101-9efbede8b363
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÜÃšÿÿÿÿÿ8Åë–…ø1J$716b2258-bc7b-409d-871c-ae4b3efc958b
+o
+java:S1172",Remove this unused method parameter "board".(æà£ù8Óë–…ø1J$7f845b45-8139-4774-86a1-6a5a43d49640
+o
+java:S1197",Move the array designators [][] to the type.(æà£ù8Õë–…ø1J$95f2fae4-559a-4b1b-a9be-9437f34360d6
+~	java:S125"<This block of commented-out lines of code should be removed.(™®ú·8Öë–…ø1J$2fc03707-8476-4ac1-af01-66e7bb6bf106
+„
+java:S1126+"AReplace this if-then-else statement by a single return statement.(Ğûİ„8ı¶Å…ø1J$dcb28031-7d77-4986-beb2-b62cd3d37c2a
+o
+java:S11971",Move the array designators [][] to the type.(óÊé¤8Ùë–…ø1J$29efc4b7-6025-47fd-8871-a7d687306b13
+t
+java:S1197;",Move the array designators [][] to the type.(òÄÓ¦üÿÿÿÿ8Úë–…ø1J$61a91cb6-567d-4743-a2ef-1f7e6fa6b990
+t
+java:S1197]",Move the array designators [][] to the type.(­‚Àœøÿÿÿÿ8Üë–…ø1J$23f0a55e-b835-40ad-910f-dea8e8c10926

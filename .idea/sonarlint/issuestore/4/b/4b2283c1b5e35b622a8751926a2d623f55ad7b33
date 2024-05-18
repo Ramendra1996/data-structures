@@ -1,0 +1,10 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âßóûÿÿÿÿ8¡ÅœÀÜ1
+r	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñĞİ®ùÿÿÿÿ8¢ÅœÀÜ1
+r	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ†‘ğûÿÿÿÿ8¢ÅœÀÜ1
+r
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¶Âôœøÿÿÿÿ8üÆœÀÜ1
+N
+java:S1197",Move the array designators [][] to the type.(âßóûÿÿÿÿ8ıÆœÀÜ1
+N
+java:S1197-",Move the array designators [][] to the type.(õ†‘ğûÿÿÿÿ8„ÇœÀÜ1
