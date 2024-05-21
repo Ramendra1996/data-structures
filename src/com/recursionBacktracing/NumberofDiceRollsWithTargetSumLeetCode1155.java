@@ -23,7 +23,7 @@ public class NumberofDiceRollsWithTargetSumLeetCode1155 {
     }
 
     public static void main(String[] args) {
-        int n = 1, k = 6, target = 3;
+        int n = 2, k = 6, target = 7;
         int i = minRollsToTarget(n, k, target);
         System.out.println(i);
     }

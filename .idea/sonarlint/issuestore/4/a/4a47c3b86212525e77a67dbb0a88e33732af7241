@@ -1,7 +1,7 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÜÃšÿÿÿÿÿ8ÏŸÞŸÚ1
-]	java:S125$"<This block of commented-out lines of code should be removed.(¼³Œƒþÿÿÿÿ8Ûç… Ú1
-M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8›€‡ Ú1
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8›€‡ Ú1
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÜÃšÿÿÿÿÿ8ÏŸÞŸÚ1J$4fe23250-cfcc-4a90-aa68-371b5b3db437
+ƒ	java:S125$"<This block of commented-out lines of code should be removed.(¼³Œƒþÿÿÿÿ8Ûç… Ú1J$7f4ebd8b-da67-43f2-b07d-d8a92ffcf776
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8›€‡ Ú1J$0a8f6c6a-02e5-4296-9f8e-bc9d987740fd
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8›€‡ Ú1J$094dc9ea-63fe-4d8b-a15f-97c732602d5e

@@ -1,6 +1,32 @@
 
-m
-java:S1197
-"*Move the array designators [] to the type.(åñâ8‡—ÀÍø1J$45158003-6229-487f-b2dd-08c0f2d370f5
-u
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Š—ÀÍø1J$96fc2543-618c-433c-90c8-ceae7903b406
+L
+java:S1197$"*Move the array designators [] to the type.(£€æşÿÿÿÿ8˜Ğ¸Ïø1
+G
+java:S1197-"*Move the array designators [] to the type.(×„ºõ8™Ğ¸Ïø1
+L
+java:S1197l"*Move the array designators [] to the type.(©ùéúÿÿÿÿ8›Ğ¸Ïø1
+G
+java:S1197y"*Move the array designators [] to the type.(êõõº8œĞ¸Ïø1
+H
+java:S1197˜"*Move the array designators [] to the type.(ÀÉ÷ı8Ğ¸Ïø1
+G
+java:S1197¹"*Move the array designators [] to the type.(§Ãì8 Ğ¸Ïø1
+H
+java:S1197Æ"*Move the array designators [] to the type.(åñâ8¡Ğ¸Ïø1
+p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×‹­ˆøÿÿÿÿ8¦Ğ¸Ïø1
+M
+java:S1197"*Move the array designators [] to the type.(×‹­ˆøÿÿÿÿ8§Ğ¸Ïø1
+H
+java:S1197©"*Move the array designators [] to the type.(­úù8¨Ğ¸Ïø1
+M
+java:S1197°"*Move the array designators [] to the type.(ØØúÌşÿÿÿÿ8¨Ğ¸Ïø1
+H
+java:S1197Ä"*Move the array designators [] to the type.(Ã¤ƒ8©Ğ¸Ïø1
+M
+java:S1197º"*Move the array designators [] to the type.(Î½¼İøÿÿÿÿ8ªĞ¸Ïø1
+Y	java:S125Ï"<This block of commented-out lines of code should be removed.(¦¨Õâ8«Ğ¸Ïø1
+Y	java:S125"<This block of commented-out lines of code should be removed.(¶ó“ô8«Ğ¸Ïø1
+^	java:S125 "<This block of commented-out lines of code should be removed.(‘„¹Ìùÿÿÿÿ8«Ğ¸Ïø1
+Y	java:S125¦"<This block of commented-out lines of code should be removed.(©ëœÈ8«Ğ¸Ïø1
+^	java:S125«"<This block of commented-out lines of code should be removed.(¨®øşÿÿÿÿ8¬Ğ¸Ïø1
+Y	java:S125±"<This block of commented-out lines of code should be removed.(¡§¡î8¬Ğ¸Ïø1

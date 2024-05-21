@@ -1,8 +1,24 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÜÃšÿÿÿÿÿ
-Y
-java:S1854"7Remove this useless assignment to local variable "arr".(é·€íıÿÿÿÿ8®÷¤„º1
-N
-java:S1197",Move the array designators [][] to the type.(é·€íıÿÿÿÿ8°÷¤„º1
-J
-java:S1481"(Remove this unused "arr" local variable.(é·€íıÿÿÿÿ8²÷¤„º1
+§
+java:S1319"dThe type of "path" should be an interface such as "List" rather than the implementation "ArrayList".(ñÌİ8ëÏ»ü÷1J$52fb533c-66fb-4ed4-a54e-d626bb3c99b5
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÜÃšÿÿÿÿÿ8îÏ»ü÷1J$97abea0d-be41-4ee1-8edd-2756b429a822
+~	java:S107"<Method has 8 parameters, which is greater than 7 authorized.(ñÌİ8ÃĞ»ü÷1J$4e733c11-af7f-433c-a3ba-799184d6112d
+o
+java:S1197",Move the array designators [][] to the type.(ª‚²8ÅĞ»ü÷1J$e1bc431e-dc3c-4bb7-94a5-11b374ed1105
+o
+java:S1197",Move the array designators [][] to the type.(ª‚²8ÅĞ»ü÷1J$81a2507a-d2a5-4e40-960b-aed74738cd8b
+‰
+java:S1126	"AReplace this if-then-else statement by a single return statement.(àû¿šıÿÿÿÿ8ÇĞ»ü÷1J$b4100da2-0549-4f40-93a9-e58d5d5d33fc
+o
+java:S1125	"'Remove the unnecessary boolean literal.(àû¿šıÿÿÿÿ8ÈĞ»ü÷1J$967387e3-596a-4369-b18f-8e435d1964a7
+o
+java:S1197",Move the array designators [][] to the type.(ñÌİ8ÉĞ»ü÷1J$7a09567f-0ec4-4de5-9d0f-0804936c8fac
+o
+java:S1197",Move the array designators [][] to the type.(ñÌİ8ÊĞ»ü÷1J$0b176d0e-29cd-4251-897f-63f673ee38ff
+~	java:S125"<This block of commented-out lines of code should be removed.(Å‚¢8ÍĞ»ü÷1J$b04014f8-9855-4be3-a57c-da9c6da1dc7f
+t
+java:S1197<",Move the array designators [][] to the type.(é·€íıÿÿÿÿ8ĞĞ»ü÷1J$5db995f2-a7f7-42be-848f-5b5e04d96861
+o
+java:S1197?",Move the array designators [][] to the type.(ëªù„8ÑĞ»ü÷1J$5f6d8e59-89a9-472f-9056-c7500324bc8b
+†
+java:S1155G">Use isEmpty() to check whether the collection is empty or not.(­Üÿÿÿÿÿ8ÚĞ»ü÷1J$3e33a712-4e89-4ca4-97fc-67a7cc6c1e9c

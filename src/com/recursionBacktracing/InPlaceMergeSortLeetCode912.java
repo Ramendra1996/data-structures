@@ -3,7 +3,7 @@ package com.recursionBacktracing;
 //leetCode 912
 
 //gap method
-public class InPlaceMergeSort {
+public class InPlaceMergeSortLeetCode912 {
     static  void  swap(int arr[], int i , int j){
         int temp = arr[i];
         arr[i]=arr[j];

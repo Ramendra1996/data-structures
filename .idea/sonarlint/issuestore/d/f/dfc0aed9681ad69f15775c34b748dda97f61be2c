@@ -1,13 +1,13 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÜÃšÿÿÿÿÿ8Ÿº‹Ü¹1
-G
-java:S1197"*Move the array designators [] to the type.(ïÎÁ©8üº‹Ü¹1
-G
-java:S1197	"*Move the array designators [] to the type.(ïä¸ù8ıº‹Ü¹1
-L
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÜÃšÿÿÿÿÿ8Ÿº‹Ü¹1J$ac914581-074a-44be-bbcc-a93a4a9e0e2c
+m
+java:S1197"*Move the array designators [] to the type.(ïÎÁ©8üº‹Ü¹1J$077804bf-40a0-429e-b13b-407333d131fd
+m
+java:S1197	"*Move the array designators [] to the type.(ïä¸ù8ıº‹Ü¹1J$c3556397-f883-4f80-844b-b0e4b84f20a0
+r
 java:S1197
-"*Move the array designators [] to the type.(Ì³Úãùÿÿÿÿ8şº‹Ü¹1
-L
-java:S1197*"*Move the array designators [] to the type.(ß©Ñûÿÿÿÿ8€»‹Ü¹1
-G
-java:S11979"*Move the array designators [] to the type.( ‡Á8ƒ»‹Ü¹1
+"*Move the array designators [] to the type.(Ì³Úãùÿÿÿÿ8şº‹Ü¹1J$7d42794d-0ba4-4c8f-992f-913cae80e109
+r
+java:S1197*"*Move the array designators [] to the type.(ß©Ñûÿÿÿÿ8€»‹Ü¹1J$cfb2fa22-7728-4aaf-9088-d414b8f37428
+m
+java:S11979"*Move the array designators [] to the type.( ‡Á8ƒ»‹Ü¹1J$f317cffa-7085-44f9-baae-4a3ba4e84687

@@ -1,0 +1,15 @@
+
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( æƒ8½Ø©ŠÕ1J$848ce736-9dbf-477b-8ec1-2bcd96ee1f32
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÜÃšÿÿÿÿÿ8¿Ø©ŠÕ1J$0d2b8761-d36e-49fd-b629-509dc513e54c
+m
+java:S1197"*Move the array designators [] to the type.(óÇ8ÕØ©ŠÕ1J$bb0b3c5f-96f6-4a09-bea0-0a6cf9bc2bfd
+r
+java:S1172"*Remove this unused method parameter "mid".(¡¡ˆóÿÿÿÿÿ8ÖØ©ŠÕ1J$c8f1d6d8-2d50-441c-8869-b2e2731a3f4e
+r
+java:S1197"*Move the array designators [] to the type.(¡¡ˆóÿÿÿÿÿ8ÖØ©ŠÕ1J$26f5ce91-6e78-41ce-8fd8-1b89acb88451
+b
+java:S1659"Declare "j" on a separate line.(£áåÛ8×Ø©ŠÕ1J$65fd44f9-decc-45fc-a5db-659a5b125e77
+r
+java:S1197"*Move the array designators [] to the type.(Åñèâûÿÿÿÿ8ØØ©ŠÕ1J$d40198fc-6413-4039-adcf-1b922164038e
+m
+java:S1197'"*Move the array designators [] to the type.(È’‹®8ÚØ©ŠÕ1J$99e9808a-3126-4fea-aeea-5b779499d9cd

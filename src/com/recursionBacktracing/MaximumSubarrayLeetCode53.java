@@ -33,6 +33,7 @@ public class MaximumSubarrayLeetCode53 {
     static int maxSubArray1(int[] nums) {
          return maxSubArrayHelper(nums,0,nums.length-1);
     }
+    //its a kadane algo
     static int maxSubArray(int[] nums) {
         int  maxi = nums[0];
         int sum =0;

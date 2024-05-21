@@ -15,8 +15,8 @@ public class Subsequences {
         //exclude
           getSubsequences(str,output,i+1,list);
         //include
-        output=output+str.charAt(i);
-        getSubsequences(str,output,i+1,list);
+      //  output=output+str.charAt(i);
+        getSubsequences(str,output+str.charAt(i),i+1,list);
 
     }
     public static void main(String[] args) {

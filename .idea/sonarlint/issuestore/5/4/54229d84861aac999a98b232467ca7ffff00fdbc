@@ -1,14 +1,14 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÜÃšÿÿÿÿÿ8˜Ø‹Õ1
-a
-java:S1854"?Remove this useless assignment to local variable "maxRightSum".(€•øÿÿÿÿ8Ë˜Ø‹Õ1
-`
-java:S1854">Remove this useless assignment to local variable "maxLeftSum".(ùÓ£ùÿÿÿÿ8Ë˜Ø‹Õ1
-G
-java:S1197"*Move the array designators [] to the type.(òê–¤8Ì˜Ø‹Õ1
-Q
-java:S1481"/Remove this unused "maxLeftSum" local variable.(ùÓ£ùÿÿÿÿ8Í˜Ø‹Õ1
-R
-java:S1481"0Remove this unused "maxRightSum" local variable.(€•øÿÿÿÿ8Î˜Ø‹Õ1
-G
-java:S11971"*Move the array designators [] to the type.(»×„¨8Ñ˜Ø‹Õ1
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÜÃšÿÿÿÿÿ8˜Ø‹Õ1J$0c6fb278-ef30-42a5-b1d5-eb539c3d0fbd
+‡
+java:S1854"?Remove this useless assignment to local variable "maxRightSum".(€•øÿÿÿÿ8Ë˜Ø‹Õ1J$42280a72-85ae-430e-8f61-1c5d75c2a57f
+†
+java:S1854">Remove this useless assignment to local variable "maxLeftSum".(ùÓ£ùÿÿÿÿ8Ë˜Ø‹Õ1J$40747f77-ad19-492f-8ebd-381f2f9d4229
+m
+java:S1197"*Move the array designators [] to the type.(òê–¤8Ì˜Ø‹Õ1J$9479ae7f-9fa0-428b-902c-26fe2aa04cca
+w
+java:S1481"/Remove this unused "maxLeftSum" local variable.(ùÓ£ùÿÿÿÿ8Í˜Ø‹Õ1J$398ea70c-dfbb-4ec7-9139-00b68dac0be0
+x
+java:S1481"0Remove this unused "maxRightSum" local variable.(€•øÿÿÿÿ8Î˜Ø‹Õ1J$b7a0f58a-8414-4c70-bebd-eef02b975166
+m
+java:S11972"*Move the array designators [] to the type.(»×„¨8Ñ˜Ø‹Õ1J$6254a744-32ea-4daa-bd2a-29e0ff3404c0

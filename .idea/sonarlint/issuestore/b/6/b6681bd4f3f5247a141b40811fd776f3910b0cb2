@@ -1,15 +1,0 @@
-
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( æƒ8½Ø©ŠÕ1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ÜÃšÿÿÿÿÿ8¿Ø©ŠÕ1
-G
-java:S1197"*Move the array designators [] to the type.(óÇ8ÕØ©ŠÕ1
-L
-java:S1172"*Remove this unused method parameter "mid".(¡¡ˆóÿÿÿÿÿ8ÖØ©ŠÕ1
-L
-java:S1197"*Move the array designators [] to the type.(¡¡ˆóÿÿÿÿÿ8ÖØ©ŠÕ1
-<
-java:S1659"Declare "j" on a separate line.(£áåÛ8×Ø©ŠÕ1
-L
-java:S1197"*Move the array designators [] to the type.(Åñèâûÿÿÿÿ8ØØ©ŠÕ1
-G
-java:S1197'"*Move the array designators [] to the type.(È’‹®8ÚØ©ŠÕ1
