@@ -1,6 +1,8 @@
 package com.linkList;
 
 public class LinkListImp {
+    static Node head;
+    static Node tail;
     static  class Node{
         int data;
          Node next;
@@ -17,20 +19,29 @@ public class LinkListImp {
        Node newNode = new Node(data);
        newNode.next=head;
        head=newNode;
+        if (tail == null) {
+            tail = head; // If the list was empty, then tail should also point to the new head
+        }
        return head;
     }
     static Node insertAtTail(Node tail,int data){
        Node newNode = new Node(data);
-       tail.next=newNode;
-       tail=newNode;
-       return tail;
+        if (tail != null) {
+            tail.next = newNode;
+        }
+        tail = newNode;
+        if (head == null) {
+            head = tail; // If the list was empty, then head should also point to the new tail
+        }
+        return tail;
     }
    static void print(Node head){
       Node temp = head;
-      while (temp!=null){
-          System.out.print(temp.data+" ");
-          temp=temp.next;
-      }
+       while (temp != null) {
+           System.out.print(temp.data + " ");
+           temp = temp.next;
+       }
+       System.out.println();
     }
     public static void main(String[] args) {
      /* Node first = new Node(10);
@@ -42,13 +53,14 @@ public class LinkListImp {
       second.next=third;
       third.next=fourth;
       fourth.next=fifth;*/
-        Node head = null;
-        Node tail=null;
+       // Node head = null;
+       // Node tail=null;
         head = insertAtHead(head, 20);
         head=insertAtHead(head,30);
         head=insertAtHead(head,40);
         head=insertAtHead(head,50);
-       print(head);
+        tail= insertAtTail(tail, 60 );
+        print(head);
     }
 
 }

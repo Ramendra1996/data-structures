@@ -24,6 +24,7 @@ public class MinimumTimeDiffrence539LeetCode {
             int diff = minutes.get(index+1)-minutes.get(index);
             mini=Math.min(mini, diff);
         }
+        //somthing missing
         int lastDiff1 = (minutes.get(0)+1440)-minutes.get(minutes.size()-1);
         int lastDiff2 =minutes.get(minutes.size()-1)-minutes.get(0);
         int lastDiff=Math.min(lastDiff1,lastDiff2);

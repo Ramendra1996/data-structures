@@ -1,7 +1,7 @@
 
-L
-java:S1197"*Move the array designators [] to the type.(³É†’ÿÿÿÿÿ8¥šûÓ1
-L
-java:S1197	"*Move the array designators [] to the type.(Âë±áûÿÿÿÿ8¥šûÓ1
-D
-java:S1125"'Remove the unnecessary boolean literal.(¼šß³8§šûÓ1
+r
+java:S1197"*Move the array designators [] to the type.(³É†’ÿÿÿÿÿ8¥šûÓ1J$c3f5ca70-2f25-49b5-9ed7-6b869bc06eb4
+r
+java:S1197	"*Move the array designators [] to the type.(Âë±áûÿÿÿÿ8¥šûÓ1J$41190a79-fb67-4342-8dfc-80170331cda8
+j
+java:S1125"'Remove the unnecessary boolean literal.(¼šß³8§šûÓ1J$546ea195-6889-4de9-a46e-275130c7f86f

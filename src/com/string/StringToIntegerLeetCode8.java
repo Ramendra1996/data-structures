@@ -25,6 +25,7 @@ public class StringToIntegerLeetCode8 {
             int digit = s.charAt(i) - '0';
 
             // Check for overflow
+            //digit allow only 7 tk
             if (num > Integer.MAX_VALUE / 10 || (num == Integer.MAX_VALUE / 10 && digit > 7)) {
                 return sign == -1 ? Integer.MIN_VALUE : Integer.MAX_VALUE;
             }

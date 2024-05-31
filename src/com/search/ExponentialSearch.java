@@ -1,5 +1,8 @@
 package com.search;
 
+//doubling search
+//Galloping search
+// Stracik search
 public class ExponentialSearch {
     static  int binarySearch(int arr[],int start , int end , int x){
         while (start<=end){

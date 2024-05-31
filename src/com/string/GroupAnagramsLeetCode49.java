@@ -33,6 +33,7 @@ public class GroupAnagramsLeetCode49 {
         }
         // Convert the values of the map to a list of lists
         return new ArrayList<>(mp.values()); //the overall time complexity is O(N * K).
+        //sc 0(nk) +map size
     }
     static List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String,List<String>>mp = new HashMap<>();
