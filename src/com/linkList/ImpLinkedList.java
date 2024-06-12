@@ -39,8 +39,8 @@ public class ImpLinkedList {
      }
      //inset add position
     public void addInPosition(int position, int data){
+        Node newNode = new Node(data);
         if(head==null){
-            Node newNode = new Node(data);
             head=newNode;
             return;
         }
@@ -61,18 +61,38 @@ public class ImpLinkedList {
              prev=prev.next;
              i++;
          }
-         Node currNode = prev.next;
+        // Node currNode = prev.next;
          //step2
-        Node newNode = new Node(data);
+      //  Node newNode = new Node(data);
         //step3
-        newNode.next=currNode;
+       // newNode.next=currNode;
         //step4
+        newNode.next= prev.next;
         prev.next=newNode;
     }
     //insert AtValue
-    void  insertAtValue(){
-
+    void  insertAtValue(int targetValue, int data){
+        Node newNode = new Node(data);
+        // Case 1: If the list is empty
+        if (head == null) {
+            head = newNode;
+            return;
+        }
+        // Case 2: Search for the target value in the list
+        Node current = head;
+        while (current != null && current.data != targetValue) {
+            current = current.next;
+        }
+        // Case 3: If the target value is not found, do not insert
+        if (current == null) {
+            System.out.println("Target value not found in the list.");
+            return;
+        }
+        // Case 4: Insert the new node after the node with the target value
+        newNode.next = current.next;
+        current.next = newNode;
     }
+
      //delete first
     public  void deleteFirst(){
       if(head==null){
@@ -143,8 +163,9 @@ public class ImpLinkedList {
         list.addFirst(4);
         list.addFirst(5);
         list.addLast(6);
-        list.addInPosition(3,79);
-        list.deleteMiddle(3);
+      //  list.insertAtValue(3,999);
+        //list.addInPosition(3,79);
+        list.deleteMiddle(2);
         System.out.println(list.findLength());
         list.print();
     }

@@ -1,9 +1,7 @@
 
-L
-java:S1197"*Move the array designators [] to the type.(È¾€ûÿÿÿÿ8ù²ƒÑ1
-Y
-java:S1854"7Remove this useless assignment to local variable "arr".(·¯Œñûÿÿÿÿ8ø²ƒÑ1
-L
-java:S1197"*Move the array designators [] to the type.(·¯Œñûÿÿÿÿ8Ñ’„Ñ1
-J
-java:S1481"(Remove this unused "arr" local variable.(·¯Œñûÿÿÿÿ8ú²ƒÑ1
+r
+java:S1197"*Move the array designators [] to the type.(ÔÀÊùÿÿÿÿ8¾ïÅ×€2J$587941e4-4eb7-4ed8-a6f3-984fc1420b67
+m
+java:S1197"*Move the array designators [] to the type.(—åÉª8ÏïÅ×€2J$2905bd68-e94a-4638-8aab-6c360616ba70
+r
+java:S1197*"*Move the array designators [] to the type.(À€Şùÿÿÿÿ8ÏïÅ×€2J$178ca7fc-0440-428e-a832-52ed254f0787

@@ -21,7 +21,7 @@ public class CheckPalindromOrNot {
         //>1 node list
         //stepA find the middle node
         Node slow = head;
-        Node fast =head.next;
+        Node fast =head;
         while (fast!=null){
             fast=fast.next;
             if(fast!=null){
@@ -71,8 +71,10 @@ public class CheckPalindromOrNot {
         list.head = list.new Node(1);
         list.head.next = list.new Node(2);
         list.head.next.next = list.new Node(3);
-        list.head.next.next.next = list.new Node(2);
-        list.head.next.next.next.next = list.new Node(1);
+        list.head.next.next.next = list.new Node(3);
+        list.head.next.next.next.next = list.new Node(2);
+        list.head.next.next.next.next.next = list.new Node(1);
+
         boolean b = list.checkPalindrom(list.head);
         if(b){
             System.out.println("palindrome");

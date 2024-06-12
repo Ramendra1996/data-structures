@@ -25,10 +25,10 @@ public class FindPivotElement {
                 return start;
             }
             int mid = start+(end-start)/2;
-            if(mid<=end && nums[mid]>nums[mid+1]){
+            if(mid+1<=end && nums[mid]>nums[mid+1]){
                 return mid;
             }
-            if(mid>=start && nums[mid-1]>nums[mid]){
+            if(mid-1>=start && nums[mid-1]>nums[mid]){
                 return mid-1;
             }
             if(nums[start]>nums[mid]){

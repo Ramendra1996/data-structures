@@ -23,6 +23,7 @@ public class AggresiveCowProblem {
         Arrays.sort(stalls);
         int start=0;
         int ans =-1;
+        // cow place at 1st and last index
          int end =stalls[stalls.length-1]-stalls[0];
          while (start<=end){
               int mid = start+(end-start)/2;

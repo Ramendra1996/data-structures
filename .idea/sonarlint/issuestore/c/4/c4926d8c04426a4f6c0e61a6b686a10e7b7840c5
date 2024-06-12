@@ -1,9 +1,12 @@
 
-W
-java:S1854"5Remove this useless assignment to local variable "n".(Ù€¤£ıÿÿÿÿ8”óùÏÏ1
-L
-java:S1197"*Move the array designators [] to the type.(‰¿ÌÑüÿÿÿÿ8•óùÏÏ1
-H
-java:S1481"&Remove this unused "n" local variable.(Ù€¤£ıÿÿÿÿ8•óùÏÏ1
-L
-java:S1197"*Move the array designators [] to the type.(İò»¤ıÿÿÿÿ8óùÏÏ1
+}
+java:S1854"5Remove this useless assignment to local variable "n".(Ù€¤£ıÿÿÿÿ8”óùÏÏ1J$bae1efe1-4d87-4bd5-8ae0-7f39383dd69b
+r
+java:S1197"*Move the array designators [] to the type.(‰¿ÌÑüÿÿÿÿ8•óùÏÏ1J$2e384b17-daf3-4cab-9801-2d8c6a0419de
+n
+java:S1481"&Remove this unused "n" local variable.(Ù€¤£ıÿÿÿÿ8•óùÏÏ1J$359ce71f-f990-410b-86ce-013705d29589
+m
+java:S1197"*Move the array designators [] to the type.(¬è8ØÅÈÔ€2J$ef0e3ced-3b21-475f-8b54-7eae5b48079f
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(èşÿÿÿÿ8‘äÉÔ€2J$1d3e619b-b10b-4693-8d73-eb1f1b745071
+v
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8’äÉÔ€2J$bd010464-bf94-4b2e-9f29-bf179368c048

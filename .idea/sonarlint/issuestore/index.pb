@@ -491,8 +491,6 @@ Y
 )src/com/search/OddOccurrenceInAArray.java,2\e\2edd48cf9628ff4865b19562fb3e345ecf80d521
 T
 $src/com/search/FindPivotElement.java,0\e\0e1f38a34963500f2186739cc83aa700b32bc07c
-X
-(src/com/search/SearchInRotatedArray.java,9\1\917083a5ee65d89410d208de8a2ae404a136ebf9
 R
 "src/com/string/RemoveAllSpace.java,c\1\c1e242ae4fb43c8517bd994839b5080f61a6588b
 `
@@ -595,10 +593,6 @@ j
 :src/com/stack/NextGreaterNodeInLinkedListLeetCode1019.java,e\f\ef7651c8fb4c3149e98c48ea7919c9935a83561a
 V
 &src/com/stack/TheCelebrityProblem.java,4\b\4b2283c1b5e35b622a8751926a2d623f55ad7b33
-S
-#src/com/practies/MergeSortDemo.java,8\0\808901845bf7cf9059fdc21aba1e4d4ac03a1290
-S
-#src/com/practies/QuickSortDemo.java,d\6\d6a10b6d1c85c74137edb563900516cd25f51f8a
 _
 /src/com/recursionBacktracing/NQueenProblem.java,8\b\8bceae59e8d23451166afdc4e0ad7bda0f75d81c
 o
@@ -609,12 +603,6 @@ h
 8src/com/recursionBacktracing/SudokuSolverLeetCode37.java,5\b\5b8f24dc589a8ae621676f8867952e0b6c2fab5d
 m
 =src/com/recursionBacktracing/InPlaceMergeSortLeetCode912.java,3\5\35542fde45b0662c954b5f6a6ae56ef81229c16e
-K
-src/com/practies/Demo1.java,a\2\a27abdcb62999c6f67c01b32997a05405c11b367
-K
-src/com/practies/Demo2.java,6\a\6a408bf5653aa160f5d9c76c34762024263a7f4d
-K
-src/com/practies/Demo3.java,5\7\57e35bb7dc67b9497c98675f20d3fbd37e3ea6b3
 Z
 *src/com/kmpAlgorithm/KmpAlgorithmDemo.java,1\6\1626dc6b3a124ed14af305f4c17c32600ab9024c
 _
@@ -627,8 +615,6 @@ T
 $src/com/numberTheory/SubsetDemo.java,8\6\86e56b52ea0edb7a87bdabd426fcc1366a857411
 W
 'src/com/numberTheory/GcdAndLcmDemo.java,b\7\b7d3239ebe8700ebbff39404deaf1cc9c9d407c9
-\
-,src/com/numberTheory/BinaryExponational.java,b\e\beb4cbcc9e6e4129c0bf4656dc1213aa67004d58
 [
 +src/com/numberTheory/BinaryExponential.java,0\3\039e4e559e74a3deae483c2bb626cb8313e1b026
 Z
@@ -639,3 +625,5 @@ S
 #src/com/numberTheory/SieveAlgo.java,d\4\d4dd95c6e340a99223fe34b79c407d9cea395cb1
 Z
 *src/com/numberTheory/InverSeAnyNumber.java,a\1\a14ef3c26630ba6461e0ff641e562ff096a76cba
+b
+2src/com/search/SearchInRotatedArrayLeetCode33.java,7\1\715f4e6aec32705ce7e4233cae9818cbbb760ab9

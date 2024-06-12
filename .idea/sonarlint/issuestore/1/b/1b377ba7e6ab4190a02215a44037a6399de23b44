@@ -1,3 +1,9 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ýŒ¢®ýÿÿÿÿ8Ìù·ÁÇ1
-X	java:S125'"<This block of commented-out lines of code should be removed.(Îƒ³¯8ëù·ÁÇ1
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ýŒ¢®ýÿÿÿÿ8ÙÂžÙ€2J$210b661e-42b1-4af7-829d-8c865e4a1e24
+~
+java:S2696"6Make the enclosing method "static" or remove this set.(ˆèÛÿÿÿÿÿ8ãÂžÙ€2J$7c2ef576-8a0f-4682-a244-484b85bdcb75
+~
+java:S2696"6Make the enclosing method "static" or remove this set.(ˆèÛÿÿÿÿÿ8äÂžÙ€2J$ef3c2b68-4134-456b-9ee0-bed346e91ecd
+~	java:S125'"<This block of commented-out lines of code should be removed.(Îƒ³¯8åÂžÙ€2J$d8a0d72a-8018-43df-b745-81dc612bc34e
+x
+java:S2696G"6Make the enclosing method "static" or remove this set.(‹ü‘58éÂžÙ€2J$d6ff67b9-b8a5-4390-a56b-b106cd50a3e8

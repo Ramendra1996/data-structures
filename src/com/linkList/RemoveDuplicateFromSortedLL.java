@@ -45,11 +45,7 @@ public class RemoveDuplicateFromSortedLL {
         Node curr = head;
         while (curr != null && curr.next != null) {
             if (curr.data == curr.next.data) {
-                if (curr.next.next != null) {
                     curr.next = curr.next.next;
-                } else {
-                    curr.next = null; // Update to remove the last duplicate node
-                }
             } else {
                 curr = curr.next;
             }

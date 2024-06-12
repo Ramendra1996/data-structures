@@ -1,6 +1,6 @@
 package com.search;
 
-public class SearchInRotatedArray {
+public class SearchInRotatedArrayLeetCode33 {
     static int getPivotMax(int nums[]){
         int start =0;
         int end = nums.length-1;
@@ -9,10 +9,10 @@ public class SearchInRotatedArray {
                 return start;
             }
             int mid = start+(end-start)/2;
-            if(mid<=end && nums[mid]>nums[mid+1]){
+            if(mid+1<=end && nums[mid]>nums[mid+1]){
                 return mid;
             }
-            if(mid>start && nums[mid-1]>nums[mid]){
+            if(mid-1>=start && nums[mid-1]>nums[mid]){
                 return mid-1;
             }
             if(nums[start]>nums[mid]){
@@ -49,7 +49,7 @@ public class SearchInRotatedArray {
     public static void main(String[] args) {
 
         int nums[]={1,3};
-        int target =0;
+        int target =1;
         int search = search(nums, target);
         System.out.println(search);
     }

@@ -35,7 +35,7 @@ public class LinkedListMiddle {
         Node slow = head;
      //   Node fast = head;
         //or
-        Node fast = head.next;
+        Node fast = head;
 
         while (slow!=null && fast!=null){
             fast=fast.next;
@@ -68,6 +68,7 @@ public class LinkedListMiddle {
         ll.addFirst(5);
         ll.addFirst(6);
         ll.addFirst(7);
+        ll.addFirst(8);
         ll.print();
         System.out.println(" ");
         Node middle = ll.getMiddle();

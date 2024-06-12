@@ -127,7 +127,6 @@ public class sort012InLL {
         if (head == null || head.next == null) {
             return head;
         }
-
         Node zeroHead = new Node(-1);
         Node zeroTail = zeroHead;
         Node oneHead = new Node(-1);
@@ -175,11 +174,11 @@ public class sort012InLL {
         list.head = list.new Node(2);
         list.head.next = list.new Node(2);
         list.head.next.next = list.new Node(2);
-        list.head.next.next.next = list.new Node(2);
-        list.head.next.next.next.next = list.new Node(2);
-        list.head.next.next.next.next.next = list.new Node(2);
-        list.head.next.next.next.next.next.next = list.new Node(2);
-        list.head.next.next.next.next.next.next.next = list.new Node(2);
+        list.head.next.next.next = list.new Node(0);
+        list.head.next.next.next.next = list.new Node(0);
+        list.head.next.next.next.next.next = list.new Node(1);
+        list.head.next.next.next.next.next.next = list.new Node(1);
+        list.head.next.next.next.next.next.next.next = list.new Node(1);
 
         System.out.println("phele ll");
         list.print(list.head);
@@ -188,6 +187,9 @@ public class sort012InLL {
          list.print(list.head);
         System.out.println("\n pointer se ll");
         list.sorted012(list.head);
+        list.print(list.head);
+        System.out.println(" ");
+        list.getsorted012(list.head);
         list.print(list.head);
     }
 }

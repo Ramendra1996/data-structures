@@ -1,8 +1,7 @@
 package com.linkList;
 
 public class KgroupReverseLinkedList {
-    Node head;
-
+   Node head;
     class Node {
         int data;
         Node next;

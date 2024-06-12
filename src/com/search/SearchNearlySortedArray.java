@@ -23,7 +23,7 @@ public class SearchNearlySortedArray {
         return -1;
     }
     public static void main(String[] args) {
-        System.out.println("Enter the key");
+     /*   System.out.println("Enter the key");
         Scanner scanner = new Scanner(System.in);
         int key =scanner.nextInt();
         System.out.println("Enter the size of Array");
@@ -31,7 +31,9 @@ public class SearchNearlySortedArray {
         int arr[]= new int[n];
         for (int i=0;i<arr.length;i++){
             arr[i]= scanner.nextInt();
-        }
+        }*/
+        int arr[]={10,3,40,20,50,80,70};
+        int key =40;
         int search = getSearch(arr, key);
         System.out.println("index="+search);
     }

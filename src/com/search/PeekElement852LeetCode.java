@@ -17,13 +17,14 @@ public class PeekElement852LeetCode {
         return start;
     }
     public static void main(String[] args) {
-        System.out.println("Enter the size of array:");
+    /*    System.out.println("Enter the size of array:");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int arr[]= new int[n];
         for(int i=0;i<arr.length;i++){
             arr[i]= scanner.nextInt();
-        }
+        }*/
+        int arr[]={0,10,5,2};
         int searchPeekElement = getSearchPeekElement(arr);
         System.out.println("peekElement="+searchPeekElement);
     }

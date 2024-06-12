@@ -143,6 +143,13 @@ public class DoublyLinkedList {
         currNode.prev=null;
         return;
     }
+
+    public  void  deleteFirst(){
+
+    }
+    public void  deleteLast(){
+
+    }
     public static void main(String[] args) {
         DoublyLinkedList dd = new DoublyLinkedList();
         dd.insertAtHead(2);

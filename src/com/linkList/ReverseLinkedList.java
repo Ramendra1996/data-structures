@@ -1,7 +1,7 @@
 package com.linkList;
 
 public class ReverseLinkedList {
-    Node head;
+    static Node head;
     private int size;
     ReverseLinkedList(){
         this.size=0;
@@ -26,19 +26,18 @@ public class ReverseLinkedList {
         head=newNode;
     }
 
-    public  void print(){
-        if(head==null){
+    public void print(Node head) {
+        if (head == null) {
             System.out.println("list is empty");
             return;
         }
         Node currNode = head;
-        while (currNode!=null){
-            System.out.print(currNode.data+" ");
-            currNode=currNode.next;
+        while (currNode != null) {
+            System.out.print(currNode.data + " ");
+            currNode = currNode.next;
         }
-     //   System.out.println("NULL");
+        //   System.out.println("NULL");
     }
-
     Node recursiveByLoop(){
          Node prev=null;
          Node curr = head;
@@ -50,13 +49,56 @@ public class ReverseLinkedList {
          }
          return prev;
     }
+
+
+    public void  reverseIterator(){
+
+        if(head==null ||head.next==null){
+            System.out.println("list is empty");
+            return;
+        }
+
+        Node prevNode = head;
+        Node currNode = head.next;
+        while (currNode!=null){
+            Node nextNode = currNode.next;
+            currNode.next=prevNode;
+            //update
+            prevNode = currNode;
+            currNode = nextNode;
+        }
+        head.next=null;
+        head = prevNode;
+    }
+
+    public Node  reverseRec(Node head){
+        // Base case: if head is null or only one node, return head
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        // Recursively reverse the rest of the list
+        Node newHead = reverseRec(head.next);
+
+        // Set the next node's next pointer to point back to the current node
+        head.next.next = head;
+
+        // Set the current node's next pointer to null
+        head.next = null;
+
+        // Return the new head of the reversed list
+        return newHead;
+
+
+    }
     public static void main(String[] args) {
         ReverseLinkedList rl = new ReverseLinkedList();
         rl.addFirst(2);
         rl.addFirst(3);
         rl.addFirst(4);
         rl.addFirst(5);
-        rl.recursiveByLoop();
-        rl.print();
+        head = rl.recursiveByLoop();
+        rl.print(head);
+
     }
 }

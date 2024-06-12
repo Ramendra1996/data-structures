@@ -1,12 +1,12 @@
 
-|
-java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8ˆÌóıÎ1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëªáşşÿÿÿÿ8‰ÌóıÎ1
-L
-java:S1197"*Move the array designators [] to the type.(Ëªáşşÿÿÿÿ8‰ÌóıÎ1
-L
-java:S1197"*Move the array designators [] to the type.(Ëªáşşÿÿÿÿ8ŠÌóıÎ1
-L
-java:S1197,"*Move the array designators [] to the type.(ø©ïùøÿÿÿÿ8ÌóıÎ1
-L
-java:S1197-"*Move the array designators [] to the type.(÷ú´ªøÿÿÿÿ8ÌóıÎ1
+¢
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8ˆÌóıÎ1J$d5fa8f33-2ad2-4d19-80b8-7538beaba665
+•	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëªáşşÿÿÿÿ8‰ÌóıÎ1J$118f037a-657e-4205-bf5f-48c468e22f5b
+r
+java:S1197"*Move the array designators [] to the type.(Ëªáşşÿÿÿÿ8‰ÌóıÎ1J$78cfeb1b-672e-4865-abc2-a06da0728267
+r
+java:S1197"*Move the array designators [] to the type.(Ëªáşşÿÿÿÿ8ŠÌóıÎ1J$cd4ba82e-1906-44d2-adf0-43d0959ca263
+r
+java:S1197,"*Move the array designators [] to the type.(ø©ïùøÿÿÿÿ8ÌóıÎ1J$b1883ba8-1fd7-4d82-8f07-122d36a99894
+r
+java:S1197-"*Move the array designators [] to the type.(÷ú´ªøÿÿÿÿ8ÌóıÎ1J$3e766825-054f-4854-b7d5-83a7b0474b96

@@ -1,5 +1,7 @@
 package com.linkList;
 
+/** flowed cycle detection algo
+ */
 public class DetectLoopAndDeleteLoop {
     Node head;
 
