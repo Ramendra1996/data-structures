@@ -1,7 +1,7 @@
 
-m
-java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ηδύ8γώ‡Δ1
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(υ‰Τ8ζώ‡Δ1
-^
-java:S1126$"AReplace this if-then-else statement by a single return statement.(ςΈ—8Π…–‡Δ1
+“
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ηδύ8γώ‡Δ1J$57321ec3-e9bf-4e0d-8ca2-7dee6a3cb845
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(υ‰Τ8ζώ‡Δ1J$a098e890-22bb-4025-a8de-8e1c5346d057
+„
+java:S1126$"AReplace this if-then-else statement by a single return statement.(ςΈ—8Π…–‡Δ1J$ecbaa132-0add-4590-ab01-147650d00c4f

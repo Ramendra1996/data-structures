@@ -48,8 +48,8 @@ public class SearchInRotatedArrayLeetCode33 {
     }
     public static void main(String[] args) {
 
-        int nums[]={1,3};
-        int target =1;
+        int nums[]={4,5,6,7,0,1,2};
+        int target =0;
         int search = search(nums, target);
         System.out.println(search);
     }

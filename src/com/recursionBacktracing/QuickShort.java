@@ -4,12 +4,12 @@ public class QuickShort {
 
     public  static  int partition(int arr[],int s,int e){
         int pivotIndex=s;
-        int pivotElement=arr[s];
+     //   int pivotElement=arr[s];
 
         //step2 find right position  for pivot element
         int count=0;
         for(int i=s+1;i<=e;i++){
-            if(arr[i]<=pivotElement){
+            if(arr[i]<=arr[pivotIndex]){
                 count++;
             }
         }
@@ -24,10 +24,10 @@ public class QuickShort {
         int i=s;
         int j=e;
         while (i<pivotIndex && j>pivotIndex){
-            while (arr[i]<pivotElement){
+            while (arr[i]<arr[pivotIndex]){
                 i++;
             }
-            while (arr[j]>pivotElement){
+            while (arr[j]>arr[pivotIndex]){
                 j--;
             }
             //2 case ho skte h

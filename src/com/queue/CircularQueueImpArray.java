@@ -19,7 +19,7 @@ public class CircularQueueImpArray {
             //normal flow
             // TODo: add one more condition in the queue  full is block
             // rear =(front-1)%(size-1); condtion
-            if((front==0 && rear==size-1)){
+            if((front==0 && rear==size-1) ||(rear==(front-1)%(size-1))){
                 System.out.println("queue is full can't insert");
             }else if (front==-1){
                     front=rear=0;
@@ -50,6 +50,12 @@ public class CircularQueueImpArray {
             }
         }
     public static void main(String[] args) {
+        CircularQueueImpArray q = new CircularQueueImpArray(5);
+        q.push(5);
+        q.push(10);
+        q.push( 15);
+        q.push(20);
+        q.push(25);
 
     }
 }

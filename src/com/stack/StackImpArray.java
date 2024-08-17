@@ -58,12 +58,18 @@ public class StackImpArray {
          st.push(30);
          st.push(40);
          st.push(50);
+        int size = st.stackSize();
+        System.out.println("size=="+size);
        //  st.push(6);
          while (!st.isEmpty()){
              System.out.println(st.peek());
              st.pop();
          }
+        int size1 = st.stackSize();
+        System.out.println("size=="+size1);
+
     }
+
 }
   /*    void push(int data){
         if(size-top>1){

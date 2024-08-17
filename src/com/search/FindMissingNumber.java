@@ -4,10 +4,17 @@ import java.util.Scanner;
 
 public class FindMissingNumber {
     public static int getMissingNumber(int arr[]){
-        int n = arr.length;
-
-
-        return 0;
+        int start=0;
+         int end = arr.length-1;
+         while (start<=end){
+             int mid = (start+end)>>1;
+             if(arr[mid]==mid+1){
+                 start = mid+1;
+             }else {
+                 end = mid-1;
+             }
+         }
+         return  start+1;
     }
     public static void main(String[] args) {
       /*  System.out.println("Enter the size of array:");
@@ -18,6 +25,7 @@ public class FindMissingNumber {
             arr[i]=scanner.nextInt();
         }*/
         int arr[] = {1,2,3,4,6,7,8};
-        getMissingNumber(arr);
+        int missingNumber = getMissingNumber(arr);
+        System.out.println(missingNumber);
     }
 }

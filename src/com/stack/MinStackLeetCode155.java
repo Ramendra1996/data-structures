@@ -1,6 +1,5 @@
 package com.stack;
 
-import java.io.Flushable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -55,5 +54,23 @@ public class MinStackLeetCode155 {
         minStack.pop();
         System.out.println("Top: " + minStack.top());
         System.out.println("Min: " + minStack.getMin());
+
+  /*      public  void  push(int data){
+            mini = Math.min(data,mini);
+            st.push(new StackImp.Pair(data, mini));
+
+        }
+        public  void  pop(){
+            st.pop();
+
+        }
+        public  int top(){
+            StackImp.Pair peek = st.peek();
+            return peek.first;
+        }
+        public int getMin(){
+            StackImp.Pair peek = st.peek();
+            return  peek.second;
+        }*/
     }
 }

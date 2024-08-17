@@ -1,5 +1,8 @@
 package com.recursionBacktracing;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class PermutationsOfString {
 
     public static String swap(String str, int i, int j) {
@@ -10,13 +13,14 @@ public class PermutationsOfString {
         return String.valueOf(ch);
     }
 
-    public static void getPrintPermutations(String str, int i) {
+    public static void getPrintPermutations(String str, int i, Set<String>set) {
         if (i >= str.length() ) {
-            System.out.println(str);
+            set.add(str);
+            return;
         }
             for (int j = i; j < str.length(); j++) {
                 str = swap(str, i, j);
-                getPrintPermutations(str, i + 1);
+                getPrintPermutations(str, i + 1,set);
                 str = swap(str, i, j); // Backtrack to the original string
             }
 
@@ -25,7 +29,9 @@ public class PermutationsOfString {
     public static void main(String[] args) {
         String str = "abc";
         int i = 0;
-        getPrintPermutations(str, i);
+        Set<String> set = new HashSet<>();
+        getPrintPermutations(str, i,set);
+        System.out.println(set);
     }
 
 }

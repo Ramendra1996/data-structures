@@ -8,10 +8,11 @@ public class TheCelebrityProblem {
         Stack<Integer>st = new Stack<>();
         //step1 :push all person into stack
         for (int i=0;i<n;i++){
-            st.push(i);
+             st.push(i);
+
         }
         //step2: run discard  method to get a mightBeCelebrity
-        while (st.size()!=1){
+        while (st.size()>1){
             int a = st.pop();
             int b= st.pop();
             //if a knows b
@@ -27,7 +28,7 @@ public class TheCelebrityProblem {
         int mightBeCelebirty =st.pop();
         //cel should not know anyone
         for(int i=0;i<n;i++){
-            if(M[mightBeCelebirty][i]!=0){
+            if(M[mightBeCelebirty][i]==1){
                 return -1;
             }
         }

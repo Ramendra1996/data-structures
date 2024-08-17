@@ -38,6 +38,30 @@ public class AddTwoNumberRepresentByTwoArray {
         sb.reverse();
         return sb.toString();
     }
+   /**
+    *  //recursion method
+    *  */
+    public static  String addNum(int num1[], int num2[], int carry, int i, int j, StringBuffer sb){
+        if (i < 0 && j < 0) {
+            if (carry != 0) {
+                sb.append(carry);
+            }
+            return sb.reverse().toString();
+        }
+        if(sb.length()>0 && sb.charAt(sb.length()-1)=='0' ){
+            sb.deleteCharAt(sb.length()-1);
+        }
+        int digit = 0;
+        if (i >= 0) {
+            digit += num1[i];
+        }
+        if (j >= 0) {
+            digit += num2[j];
+        }
+        sb.append(digit % 10);
+        carry = digit / 10;
+        return addNum(num1, num2, carry, i - 1, j - 1, sb);
+    }
 
     public static void main(String[] args) {
         AddTwoNumberRepresentByTwoArray ab = new AddTwoNumberRepresentByTwoArray();

@@ -31,3 +31,5 @@ public class FirstNonRepeatingChar {
 
     }
 }
+//TC->0(n)
+//SC->0(n)

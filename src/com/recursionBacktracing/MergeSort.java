@@ -67,3 +67,12 @@ public class MergeSort {
 //TC->0(nlogn)
 //SC->0(n)
 //inplace margesort
+
+/**
+Applications of Merge Sort:
+
+ Sorting large datasets
+ External sorting (when the dataset is too large to fit in memory)
+ Inversion counting (counting the number of inversions in an array)
+ Finding the median of an array
+ */

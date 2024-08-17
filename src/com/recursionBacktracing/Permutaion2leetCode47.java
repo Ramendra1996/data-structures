@@ -12,7 +12,7 @@ public class Permutaion2leetCode47 {
 
     static void permuteUniqueHelper(int[] nums, List<List<Integer>> ans, int start) {
         // Base case
-        if (start == nums.length) {
+        if (start >= nums.length) {
             // Create a new list to store the permutation
             List<Integer> permutation = new ArrayList<>();
             for (int num : nums) {
@@ -39,7 +39,7 @@ public class Permutaion2leetCode47 {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 1, 2};
+        int[] nums = {1, 2, 3};
         List<List<Integer>> result = permuteUnique(nums);
         System.out.println(result);
     }

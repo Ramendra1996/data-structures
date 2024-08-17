@@ -1,20 +1,31 @@
 package com.binaryTree;
 
 import java.util.*;
-public class BinaryTree {
-    static Node root;
-    static Node p;
-    static Node q;
-   private static class Node {
-        int data;
-        Node left;
-        Node right;
-        private Node(int data) {
-            this.data = data;
-            left = null;
-            right = null;
-        }
+ class Node {
+    int data;
+    Node left;
+    Node right;
+     Node(int data) {
+        this.data = data;
+        left = null;
+        right = null;
     }
+}
+
+class  Pair{
+     int height;
+     int diameter;
+
+     Pair(int height, int diameter){
+         this.height=height;
+         this.diameter= diameter;
+     }
+}
+public class BinaryTree {
+  static    Node root;
+   static   Node p;
+   static    Node q;
+
     private static Node buildTree() {
         Node root = null;
         System.out.println("Enter data:");
@@ -32,28 +43,45 @@ public class BinaryTree {
 
     //level order traversal
     private static void  levelOrderTraversal(Node root){
-        Queue<Node> queue = new LinkedList<Node>();
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+
+        while (!queue.isEmpty()){
+            Node tempNode = queue.poll();
+            System.out.print(tempNode.data+" ");
+            if (tempNode.left!=null){
+                queue.add(tempNode.left);
+            }
+            if (tempNode.right!=null){
+                queue.add(tempNode.right);
+            }
+        }
+    }
+
+    public  static  void  levelOrderTraversalBFS(Node root){
+        Queue<Node> queue = new LinkedList<>();
         queue.add(root);
         queue.add(null);
         while (!queue.isEmpty()){
-            Node tempNode = queue.poll();
-            if (tempNode==null){
+            Node currNode = queue.remove();
+
+            if (currNode==null){
                 System.out.println();
-                if(!queue.isEmpty()){
+                if (queue.isEmpty()){
+                    break;
+                }else {
                     queue.add(null);
                 }
             }else {
-                System.out.print(tempNode.data + " ");
-                // Enqueue left child
-                if (tempNode.left != null) {
-                    queue.add(tempNode.left);
+                System.out.print(currNode.data+" ");
+
+                if (currNode.left!=null){
+                    queue.add(currNode.left);
                 }
-                // Enqueue right child
-                if (tempNode.right != null) {
-                    queue.add(tempNode.right);
+                if (currNode.right!=null){
+                    queue.add(currNode.right);
                 }
             }
-
         }
     }
 
@@ -96,17 +124,35 @@ public class BinaryTree {
         int ans = Math.max(leftHeight,rightHeight)+1;
         return ans;
     }
-    //diameter of a tree LeetCode543
+    //diameter of a tree LeetCode543 T.C=>0(n^2)
      private static  int diameter(Node root){
         if(root==null){
             return 0;
         }
         int op1 = diameter(root.left);
         int op2 = diameter(root.right);
-        int op3= height(root.left)+height(root.right);
+        int op3= height(root.left)+height(root.right)+1;
         int ans = Math.max(op1,Math.max(op2,op3));
         return ans;
+
      }
+     //T.C=>0(n)
+     public  static  Pair countDiameter(Node root){
+
+        if(root==null){
+            return  new Pair(0,0);
+        }
+        Pair left = countDiameter(root.left);
+        Pair right = countDiameter(root.right);
+        int height = Math.max(left.height ,right.height)+1;
+        int leftDiameter =left.diameter;
+        int rightDiameter = right.diameter;
+         int diameter =  left.height+right.height+1;
+        int finalDiameter = Math.max(diameter,Math.max(leftDiameter,rightDiameter));
+          return  new Pair(height,finalDiameter);
+     }
+
+
      //balanced binary tree LeetCode 110
      private static boolean isBalanced(Node root) {
         if(root==null){
@@ -126,6 +172,42 @@ public class BinaryTree {
         }
 
      }
+
+    public static List<List<Integer>> levelOrder(Node root) {
+
+        Queue<Node> queue = new LinkedList<>();
+        List<List<Integer>> ans = new ArrayList<>();
+        if (root == null) {
+            return ans;
+        }
+        List<Integer> list = new ArrayList<>();
+        queue.add(root);
+        queue.add(null);
+        while (!queue.isEmpty()){
+            Node currNode = queue.remove();
+            if(currNode==null){
+                if(queue.isEmpty()){
+                    ans.add(list);
+                    break;
+                }else{
+
+                    ans.add(list);
+                    list = new ArrayList<>();
+                    queue.add(null);
+
+                }
+            }else {
+                list.add(currNode.data);
+                if (currNode.left!=null){
+                    queue.add(currNode.left);
+                }
+                if (currNode.right!=null){
+                    queue.add(currNode.right);
+                }
+            }
+        }
+        return  ans;
+    }
 /*    public static boolean isBalanced(Node root) {
         return checkBalance(root) != -1;
     }
@@ -233,6 +315,17 @@ public class BinaryTree {
         return ans;
     }
 
+    public  static  int contOfNodes(Node root){
+        if (root==null){
+            return 0;
+        }
+
+        int leftCount = contOfNodes(root.left);
+        int rightCount = contOfNodes(root.right);
+
+        return leftCount + rightCount+1;
+    }
+
     static Scanner scanner = null;
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
@@ -258,6 +351,10 @@ public class BinaryTree {
         int targetSum =22;
         List<List<Integer>> lists = pathSum(root, targetSum);
         System.out.println(lists);
+
+
+        int count = contOfNodes(root);
+        System.out.println("count of nodes"+count);
 
     }
 }

@@ -12,6 +12,9 @@ public class CoinChangeProblem {
         for (int i = 0; i < arr.length; i++) {
             int ans = solve(arr, target - arr[i]);
             if (ans != Integer.MAX_VALUE) {
+                /**
+                 *  her baar check kro ans me 1 kyu add kiya gya h
+                 */
                 mini = Math.min(ans + 1, mini); // Add 1 to the count.
             }
         }

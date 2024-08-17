@@ -14,7 +14,7 @@ public class DoublyEndedQueue {
         rear = -1;
     }
     void pushRear(int data){
-        if(front==0 && rear==size-1){
+        if(front==0 && rear==size-1||(rear==(front-1)%(size-1))){
             System.out.println("queue is full can't insert");
             return;
         }else if (front==-1){

@@ -1,17 +1,20 @@
 package com.queue;
 
+//another name  circular tour
+
 public class GasStationLeetCode134 {
     public static int canCompleteCircuit(int[] gas, int[] cost) {
         //kitna petrol km pd gya
         int deficit =0;
         //kitna petrol bacha hua h
         int balance=0;
-        //circuit ka se start krte ho
+        //circuit kha se start krte ho
         int start =0;
 
         for(int i=0;i<gas.length;i++){
             balance +=gas[i]-cost[i];
             if(balance<0){
+                //yha pr galti hoti h
                 deficit  = balance + deficit;
                 start=i+1;
                 balance=0;

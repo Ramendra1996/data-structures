@@ -461,16 +461,12 @@ Y
 )src/com/array/FactorialOfLargeNumber.java,a\d\adb8b33a5f2f1d2a3f1d2896f1e66152649b3877
 b
 2src/com/array/AddTwoNumberRepresentByTwoArray.java,7\0\70ff873afff4c0625d6505eda68bbc71460dd8af
-J
-src/com/practies/Demo.java,3\2\32075342911da973aa5a95ad4adcbe72f917cdb5
 T
 $src/com/array/FindUniqueElement.java,3\6\36c1bc98bdfd2a4010c16616d9efb460d5338162
 R
 "src/com/array/UnionOfTwoArray.java,0\7\07c21fb89c287336afcbaeb76c0ae3826d083b40
 Y
 )src/com/array/InterSectionOfTwoArray.java,6\e\6ef912dd4a8d8716d0fc87e6497f2dc40ea58418
-M
-src/com/search/FindPivot.java,2\2\22e1b1c0f267c5eac8b04a672df9b49f61874d3a
 J
 src/com/array/PairSum.java,9\9\991eab06faf5d4b6daf915a04a02dd40959eefa7
 [
@@ -627,3 +623,9 @@ Z
 *src/com/numberTheory/InverSeAnyNumber.java,a\1\a14ef3c26630ba6461e0ff641e562ff096a76cba
 b
 2src/com/search/SearchInRotatedArrayLeetCode33.java,7\1\715f4e6aec32705ce7e4233cae9818cbbb760ab9
+O
+src/com/practies/QueueDemo.java,3\e\3eadfe9191ed3101fc3186b2789a7cb296ef2db9
+f
+6src/com/queue/ImplementQueueUsingStackLeetCode232.java,1\4\14058f2e7ff5340ce4409a590b053c9bd7708e6f
+`
+0src/com/queue/ImpStackUsingQueueLeetCode225.java,9\c\9c9f1747f7faf768bcffeef8ae39325feadab8a5

@@ -13,12 +13,10 @@ public class MiddleElementInStack {
              System.out.println(st.peek());
              return;
          }
-         int temp = st.pop();
+          st.pop();
          //rc call
          printMiddleElemet(st, size);
 
-         //backtrack
-         st.push(temp);
      }
 
     public static void main(String[] args) {

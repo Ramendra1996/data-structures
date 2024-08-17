@@ -1,7 +1,7 @@
 
-m
-java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ûÔåƒ8Ú„íÛÃ1
-r
-java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¶Âôœøÿÿÿÿ8Û„íÛÃ1
-`
-java:S1155">Use isEmpty() to check whether the collection is empty or not.(ê–˜Óüÿÿÿÿ8€úñÛÃ1
+“
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ûÔåƒ8Ú„íÛÃ1J$362dd569-a166-4943-8e02-97440ed8f866
+˜
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¶Âôœøÿÿÿÿ8Û„íÛÃ1J$1fa877ed-97fe-4f7e-a9ae-3ce1bbb3214e
+†
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(ê–˜Óüÿÿÿÿ8€úñÛÃ1J$483f206c-2ebd-4e04-81bf-a01a3b156d9f

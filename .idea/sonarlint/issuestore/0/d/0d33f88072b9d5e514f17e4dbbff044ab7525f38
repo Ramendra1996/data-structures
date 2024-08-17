@@ -1,9 +1,9 @@
 
-L
-java:S1197"*Move the array designators [] to the type.(¸™Èâúÿÿÿÿ8¸ÇÒÔ€2
-L
-java:S1197"*Move the array designators [] to the type.(Ÿç­•úÿÿÿÿ8¼ÇÒÔ€2
-]	java:S125"<This block of commented-out lines of code should be removed.(èşÿÿÿÿ8½ÇÒÔ€2
-X	java:S125 "<This block of commented-out lines of code should be removed.(½îÖÍ8ñÇÒÔ€2
-P
-java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ñÇÒÔ€2
+r
+java:S1197"*Move the array designators [] to the type.(¸™Èâúÿÿÿÿ8¸ÇÒÔ€2J$6fd2afb3-793f-4103-b77b-89fc00e3bcdc
+r
+java:S1197"*Move the array designators [] to the type.(Ÿç­•úÿÿÿÿ8¼ÇÒÔ€2J$bbe42b08-9021-403b-9d7d-dc25a910de60
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(èşÿÿÿÿ8½ÇÒÔ€2J$e15a88b1-a4d2-45c4-9810-571a4fa2bc65
+~	java:S125 "<This block of commented-out lines of code should be removed.(½îÖÍ8ñÇÒÔ€2J$182be6a9-ddbe-4998-af35-48988ff93d57
+v
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ñÇÒÔ€2J$d4f4f38f-eb83-48b3-a0eb-7a062d1ef3b7

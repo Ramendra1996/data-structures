@@ -21,7 +21,7 @@ public class FindFirstOccurance {
         return ans;
     }
     public static void main(String[] args) {
-        System.out.println("Enter the element");
+      /*  System.out.println("Enter the element");
         Scanner scanner = new Scanner(System.in);
         int element = scanner.nextInt();
         System.out.println("Enter the size of array");
@@ -29,7 +29,9 @@ public class FindFirstOccurance {
         int arr[]= new int[n];
         for (int i=0;i< arr.length;i++){
             arr[i]= scanner.nextInt();
-        }
+        }*/
+        int arr[]={1,2,2,2,2,2,4,5,6,7,8,9};
+        int element =2;
         int firstOccurance = getFirstOccurance(arr, element);
         System.out.println("firstOccurance="+firstOccurance);
     }
