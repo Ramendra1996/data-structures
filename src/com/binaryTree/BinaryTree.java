@@ -26,94 +26,6 @@ public class BinaryTree {
    static   Node p;
    static    Node q;
 
-    private static Node buildTree() {
-        Node root = null;
-        System.out.println("Enter data:");
-        int data = scanner.nextInt();
-        if (data == -1) {
-            return null;
-        }
-        root = new Node(data);
-        System.out.println("Enter data for left part=>" + data);
-        root.left = buildTree();
-        System.out.println("Enter data for right part=>" + data);
-        root.right = buildTree();
-        return root;
-    }
-
-    //level order traversal
-    private static void  levelOrderTraversal(Node root){
-        Queue<Node> queue = new LinkedList<>();
-        queue.add(root);
-
-        while (!queue.isEmpty()){
-            Node tempNode = queue.poll();
-            System.out.print(tempNode.data+" ");
-            if (tempNode.left!=null){
-                queue.add(tempNode.left);
-            }
-            if (tempNode.right!=null){
-                queue.add(tempNode.right);
-            }
-        }
-    }
-
-    public  static  void  levelOrderTraversalBFS(Node root){
-        Queue<Node> queue = new LinkedList<>();
-        queue.add(root);
-        queue.add(null);
-        while (!queue.isEmpty()){
-            Node currNode = queue.remove();
-
-            if (currNode==null){
-                System.out.println();
-                if (queue.isEmpty()){
-                    break;
-                }else {
-                    queue.add(null);
-                }
-            }else {
-                System.out.print(currNode.data+" ");
-
-                if (currNode.left!=null){
-                    queue.add(currNode.left);
-                }
-                if (currNode.right!=null){
-                    queue.add(currNode.right);
-                }
-            }
-        }
-    }
-
-    //InOrder Traversal
-    private static void InOrderTraversal(Node root){
-        //basecase
-        if (root==null){
-            return;
-        }
-        //LNR
-        InOrderTraversal(root.left);
-        System.out.print(root.data+" ");
-        InOrderTraversal(root.right);
-    }
-    //PreOrder Traversal
-    private static void preOrderTraversal(Node root){
-        if(root==null){
-            return;
-        }
-        System.out.print(root.data+" ");
-        preOrderTraversal(root.left);
-        preOrderTraversal(root.right);
-    }
-    //postOrder traversal
-    private static void postorderTraversal(Node root){
-      if (root==null){
-          return;
-      }
-      postorderTraversal(root.left);
-      postorderTraversal(root.right);
-        System.out.print(root.data+" ");
-    }
   //height of a tree LeetCode 104
     private static int height(Node root){
         if (root==null){
@@ -329,17 +241,11 @@ public class BinaryTree {
     static Scanner scanner = null;
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
-        root=buildTree();
-        System.out.println("level order traversal");
-        levelOrderTraversal(root);
+
         int height = height(root);
         System.out.println("height="+height);
         System.out.println("Inorder traversal");
-        InOrderTraversal(root);
-        System.out.println("\npre order traversal  ");
-        preOrderTraversal(root);
-        System.out.println("\npost order traversal\n");
-        postorderTraversal(root);
+
         int diameter = diameter(root);
         System.out.println("diameter="+diameter);
         boolean balanced = isBalanced(root);
